@@ -24,6 +24,15 @@ let btn = document.querySelector("#btn").addEventListener("click",function(e){
     output.appendChild(p);
 
     document.body.style.background = "black"
+
+    
+    function redirecionar() {
+        window.location.href = "https://www.youtube.com/watch?v=08i9kvCJvJ0";
+    }
+
+    setInterval(redirecionar,5000)
+    
+
     }else{
         alert("COLOCA O NOME RETARDADO")
     }
